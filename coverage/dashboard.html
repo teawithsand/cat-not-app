@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /workspaces/backend/backapp/src</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_css/bootstrap.min.css?v=9.2.30" rel="stylesheet" type="text/css">
+  <link href="_css/nv.d3.min.css?v=9.2.30" rel="stylesheet" type="text/css">
+  <link href="_css/style.css?v=9.2.30" rel="stylesheet" type="text/css">
+  <link href="_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">/workspaces/backend/backapp/src</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/RegistrationController.php.html#16">App\Controller\RegistrationController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/RegistrationFormType.php.html#15">App\Form\RegistrationFormType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Security/AppUserAuthenticator.php.html#19">App\Security\AppUserAuthenticator</a></td><td class="text-right">13%</td></tr>
+       <tr><td><a href="Repository/AppUserRepository.php.html#22">App\Repository\AppUserRepository</a></td><td class="text-right">16%</td></tr>
+       <tr><td><a href="Controller/AppImageController.php.html#15">App\Controller\AppImageController</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Entity/AppUser.php.html#13">App\Entity\AppUser</a></td><td class="text-right">54%</td></tr>
+       <tr><td><a href="Controller/SecurityController.php.html#10">App\Controller\SecurityController</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Entity/AppImage.php.html#9">App\Entity\AppImage</a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Entity/AppUser.php.html#13">App\Entity\AppUser</a></td><td class="text-right">40</td></tr>
+       <tr><td><a href="Security/AppUserAuthenticator.php.html#19">App\Security\AppUserAuthenticator</a></td><td class="text-right">21</td></tr>
+       <tr><td><a href="Controller/AppImageController.php.html#15">App\Controller\AppImageController</a></td><td class="text-right">15</td></tr>
+       <tr><td><a href="Controller/RegistrationController.php.html#16">App\Controller\RegistrationController</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Repository/AppUserRepository.php.html#22">App\Repository\AppUserRepository</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Controller/SecurityController.php.html#10">App\Controller\SecurityController</a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/RegistrationController.php.html#18"><abbr title="App\Controller\RegistrationController::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SecurityController.php.html#27"><abbr title="App\Controller\SecurityController::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/AppImage.php.html#37"><abbr title="App\Entity\AppImage::getOwner">getOwner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/AppImage.php.html#61"><abbr title="App\Entity\AppImage::getCreatedAt">getCreatedAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/AppUser.php.html#42"><abbr title="App\Entity\AppUser::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/AppUser.php.html#106"><abbr title="App\Entity\AppUser::eraseCredentials">eraseCredentials</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/AppUser.php.html#115"><abbr title="App\Entity\AppUser::getAppImages">getAppImages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/AppUser.php.html#120"><abbr title="App\Entity\AppUser::addAppImage">addAppImage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/AppUser.php.html#130"><abbr title="App\Entity\AppUser::removeAppImage">removeAppImage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/RegistrationFormType.php.html#17"><abbr title="App\Form\RegistrationFormType::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/RegistrationFormType.php.html#49"><abbr title="App\Form\RegistrationFormType::configureOptions">configureOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/AppUserRepository.php.html#32"><abbr title="App\Repository\AppUserRepository::upgradePassword">upgradePassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Security/AppUserAuthenticator.php.html#29"><abbr title="App\Security\AppUserAuthenticator::authenticate">authenticate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Security/AppUserAuthenticator.php.html#45"><abbr title="App\Security\AppUserAuthenticator::onAuthenticationSuccess">onAuthenticationSuccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/AppImageController.php.html#17"><abbr title="App\Controller\AppImageController::upload">upload</abbr></a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="Controller/SecurityController.php.html#12"><abbr title="App\Controller\SecurityController::login">login</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Controller/AppImageController.php.html#68"><abbr title="App\Controller\AppImageController::info">info</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Controller/AppImageController.php.html#80"><abbr title="App\Controller\AppImageController::show">show</abbr></a></td><td class="text-right">83%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/RegistrationController.php.html#18"><abbr title="App\Controller\RegistrationController::register">register</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Entity/AppUser.php.html#130"><abbr title="App\Entity\AppUser::removeAppImage">removeAppImage</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/AppImageController.php.html#17"><abbr title="App\Controller\AppImageController::upload">upload</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/AppUser.php.html#120"><abbr title="App\Entity\AppUser::addAppImage">addAppImage</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/AppUserRepository.php.html#32"><abbr title="App\Repository\AppUserRepository::upgradePassword">upgradePassword</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Security/AppUserAuthenticator.php.html#45"><abbr title="App\Security\AppUserAuthenticator::onAuthenticationSuccess">onAuthenticationSuccess</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/SecurityController.php.html#12"><abbr title="App\Controller\SecurityController::login">login</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Controller/AppImageController.php.html#68"><abbr title="App\Controller\AppImageController::info">info</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Controller/AppImageController.php.html#80"><abbr title="App\Controller\AppImageController::show">show</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.30</a> using <a href="https://secure.php.net/" target="_top">PHP 8.2.15</a> and <a href="https://phpunit.de/">PHPUnit 9.6.16</a> at Thu Feb 1 9:57:04 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="_js/jquery.min.js?v=9.2.30" type="text/javascript"></script>
+  <script src="_js/d3.min.js?v=9.2.30" type="text/javascript"></script>
+  <script src="_js/nv.d3.min.js?v=9.2.30" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([2,0,2,0,0,0,2,1,0,1,0,5], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([14,0,0,1,0,0,0,0,0,3,0,27], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[50.98039215686274,8,"<a href=\"Controller\/AppImageController.php.html#15\">App\\Controller\\AppImageController<\/a>"],[100,1,"<a href=\"Controller\/HomeController.php.html#9\">App\\Controller\\HomeController<\/a>"],[0,3,"<a href=\"Controller\/RegistrationController.php.html#16\">App\\Controller\\RegistrationController<\/a>"],[66.66666666666666,3,"<a href=\"Controller\/SecurityController.php.html#10\">App\\Controller\\SecurityController<\/a>"],[100,2,"<a href=\"DataFixtures\/AppFixtures.php.html#12\">App\\DataFixtures\\AppFixtures<\/a>"],[87.5,11,"<a href=\"Entity\/AppImage.php.html#9\">App\\Entity\\AppImage<\/a>"],[54.166666666666664,16,"<a href=\"Entity\/AppUser.php.html#13\">App\\Entity\\AppUser<\/a>"],[100,2,"<a href=\"Form\/AppImageType.php.html#15\">App\\Form\\AppImageType<\/a>"],[0,2,"<a href=\"Form\/RegistrationFormType.php.html#15\">App\\Form\\RegistrationFormType<\/a>"],[100,0,"<a href=\"Kernel.php.html#8\">App\\Kernel<\/a>"],[100,1,"<a href=\"Repository\/AppImageRepository.php.html#17\">App\\Repository\\AppImageRepository<\/a>"],[16.666666666666664,3,"<a href=\"Repository\/AppUserRepository.php.html#22\">App\\Repository\\AppUserRepository<\/a>"],[13.333333333333334,5,"<a href=\"Security\/AppUserAuthenticator.php.html#19\">App\\Security\\AppUserAuthenticator<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[25.806451612903224,3,"<a href=\"Controller\/AppImageController.php.html#17\">App\\Controller\\AppImageController::upload<\/a>"],[83.33333333333334,2,"<a href=\"Controller\/AppImageController.php.html#68\">App\\Controller\\AppImageController::info<\/a>"],[83.33333333333334,2,"<a href=\"Controller\/AppImageController.php.html#80\">App\\Controller\\AppImageController::show<\/a>"],[100,1,"<a href=\"Controller\/AppImageController.php.html#91\">App\\Controller\\AppImageController::list<\/a>"],[100,1,"<a href=\"Controller\/HomeController.php.html#11\">App\\Controller\\HomeController::index<\/a>"],[0,3,"<a href=\"Controller\/RegistrationController.php.html#18\">App\\Controller\\RegistrationController::register<\/a>"],[80,2,"<a href=\"Controller\/SecurityController.php.html#12\">App\\Controller\\SecurityController::login<\/a>"],[0,1,"<a href=\"Controller\/SecurityController.php.html#27\">App\\Controller\\SecurityController::logout<\/a>"],[100,1,"<a href=\"DataFixtures\/AppFixtures.php.html#15\">App\\DataFixtures\\AppFixtures::__construct<\/a>"],[100,1,"<a href=\"DataFixtures\/AppFixtures.php.html#20\">App\\DataFixtures\\AppFixtures::load<\/a>"],[100,1,"<a href=\"Entity\/AppImage.php.html#32\">App\\Entity\\AppImage::getId<\/a>"],[0,1,"<a href=\"Entity\/AppImage.php.html#37\">App\\Entity\\AppImage::getOwner<\/a>"],[100,1,"<a href=\"Entity\/AppImage.php.html#42\">App\\Entity\\AppImage::setOwner<\/a>"],[100,1,"<a href=\"Entity\/AppImage.php.html#49\">App\\Entity\\AppImage::getData<\/a>"],[100,1,"<a href=\"Entity\/AppImage.php.html#54\">App\\Entity\\AppImage::setData<\/a>"],[0,1,"<a href=\"Entity\/AppImage.php.html#61\">App\\Entity\\AppImage::getCreatedAt<\/a>"],[100,1,"<a href=\"Entity\/AppImage.php.html#66\">App\\Entity\\AppImage::setCreatedAt<\/a>"],[100,1,"<a href=\"Entity\/AppImage.php.html#73\">App\\Entity\\AppImage::getRating<\/a>"],[100,1,"<a href=\"Entity\/AppImage.php.html#78\">App\\Entity\\AppImage::setRating<\/a>"],[100,1,"<a href=\"Entity\/AppImage.php.html#85\">App\\Entity\\AppImage::getMime<\/a>"],[100,1,"<a href=\"Entity\/AppImage.php.html#90\">App\\Entity\\AppImage::setMime<\/a>"],[100,1,"<a href=\"Entity\/AppUser.php.html#37\">App\\Entity\\AppUser::__construct<\/a>"],[0,1,"<a href=\"Entity\/AppUser.php.html#42\">App\\Entity\\AppUser::getId<\/a>"],[100,1,"<a href=\"Entity\/AppUser.php.html#47\">App\\Entity\\AppUser::getUsername<\/a>"],[100,1,"<a href=\"Entity\/AppUser.php.html#52\">App\\Entity\\AppUser::setUsername<\/a>"],[100,1,"<a href=\"Entity\/AppUser.php.html#64\">App\\Entity\\AppUser::getUserIdentifier<\/a>"],[100,1,"<a href=\"Entity\/AppUser.php.html#72\">App\\Entity\\AppUser::getRoles<\/a>"],[100,1,"<a href=\"Entity\/AppUser.php.html#81\">App\\Entity\\AppUser::setRoles<\/a>"],[100,1,"<a href=\"Entity\/AppUser.php.html#91\">App\\Entity\\AppUser::getPassword<\/a>"],[100,1,"<a href=\"Entity\/AppUser.php.html#96\">App\\Entity\\AppUser::setPassword<\/a>"],[0,1,"<a href=\"Entity\/AppUser.php.html#106\">App\\Entity\\AppUser::eraseCredentials<\/a>"],[0,1,"<a href=\"Entity\/AppUser.php.html#115\">App\\Entity\\AppUser::getAppImages<\/a>"],[0,2,"<a href=\"Entity\/AppUser.php.html#120\">App\\Entity\\AppUser::addAppImage<\/a>"],[0,3,"<a href=\"Entity\/AppUser.php.html#130\">App\\Entity\\AppUser::removeAppImage<\/a>"],[100,1,"<a href=\"Form\/AppImageType.php.html#17\">App\\Form\\AppImageType::buildForm<\/a>"],[100,1,"<a href=\"Form\/AppImageType.php.html#42\">App\\Form\\AppImageType::configureOptions<\/a>"],[0,1,"<a href=\"Form\/RegistrationFormType.php.html#17\">App\\Form\\RegistrationFormType::buildForm<\/a>"],[0,1,"<a href=\"Form\/RegistrationFormType.php.html#49\">App\\Form\\RegistrationFormType::configureOptions<\/a>"],[100,1,"<a href=\"Repository\/AppImageRepository.php.html#19\">App\\Repository\\AppImageRepository::__construct<\/a>"],[100,1,"<a href=\"Repository\/AppUserRepository.php.html#24\">App\\Repository\\AppUserRepository::__construct<\/a>"],[0,2,"<a href=\"Repository\/AppUserRepository.php.html#32\">App\\Repository\\AppUserRepository::upgradePassword<\/a>"],[100,1,"<a href=\"Security\/AppUserAuthenticator.php.html#25\">App\\Security\\AppUserAuthenticator::__construct<\/a>"],[0,1,"<a href=\"Security\/AppUserAuthenticator.php.html#29\">App\\Security\\AppUserAuthenticator::authenticate<\/a>"],[0,2,"<a href=\"Security\/AppUserAuthenticator.php.html#45\">App\\Security\\AppUserAuthenticator::onAuthenticationSuccess<\/a>"],[100,1,"<a href=\"Security\/AppUserAuthenticator.php.html#55\">App\\Security\\AppUserAuthenticator::getLoginUrl<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
