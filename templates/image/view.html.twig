@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	<div class="container">
+        <div class="mb-3 d-flex justify-content-center">
+            <img 
+            style="width: auto; height: auto; object-fit: contain; display: block; max-width: 80wv; max-height: 80vh;" 
+            src="{{ path('app_image_show', { id: image.id })}}" alt="Image {{ image.id }}"/>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                <h1>{{ (image.rating * 100) | abs | round(2) }}% {% if image.rating > 0.5 %} (CAT) {% else %} (NOT CAT) {% endif %}</h1>
+            </div> 
+        </div>
+        <div class="pb-5"></div>
+        <div class="pb-5"></div>
+        <div class="pb-5"></div>
+        <div class="pb-5"></div>
+        <div class="pb-5"></div>
+	</div>
+{% endblock %}
