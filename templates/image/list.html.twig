@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	<div class="container">
+		<table class="table">
+			<thead>
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Image</th>
+					<th scope="col">Cat probability</th>
+                    <th scope="col">Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for image in images %}
+					<tr>
+						<td>{{ loop.index }}</td>
+                        <td>
+                            <img width="100" height="100" class="img-fluid" src="{{ path('app_image_show', { id: image.id })}}" alt="Image {{ image.id }}"/>
+                        </td>
+                        <td>
+                            {{ (image.rating * 100) | abs | round(2) }}% {% if image.rating > 0.5 %} (CAT) {% else %} (NOT CAT) {% endif %}
+                        </td>
+                        <td>
+                            <a href="{{ path('app_image_info', { id: image.id })}}">Info</a>
+                        </td>
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+{% endblock %}
